@@ -19,12 +19,6 @@ git clone https://github.com/suitux/fluent-dns
 npm start
 ```
 
-## Test
-
-```
-npm test
-```
-
 ## dns-entries.json structure
 
 ```json
@@ -47,6 +41,13 @@ A, NS, MD, MF, CNAME, SOA, MB, MG, MR, NULL, WKS, PTR, HINFO, MINFO, MX, TXT, AA
 ```
 IN, CS, CH, HS, ANY
 ```
+
+## Test
+
+```
+npm test
+```
+
 
 ## Contributing
 
