@@ -1,1 +1,1 @@
-require('./api');
+require('./dns');
