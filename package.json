@@ -17,7 +17,7 @@
         "server"
     ],
     "author": "suitux",
-    "license": "ISC",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/suitux/fluent-dns/issues"
     },
