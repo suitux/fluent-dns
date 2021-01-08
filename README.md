@@ -31,16 +31,9 @@ npm start
 }
 ```
 
-#### Entry types: 
+[Entry types](https://tools.ietf.org/html/rfc1035#section-3.2.2)
 
-```
-A, NS, MD, MF, CNAME, SOA, MB, MG, MR, NULL, WKS, PTR, HINFO, MINFO, MX, TXT, AAAA, SRV, EDNS, SPF, AXFR, MAILB, MAILA, ANY, CAA
-```
-
-#### Class types: 
-```
-IN, CS, CH, HS, ANY
-```
+[Class types](https://tools.ietf.org/html/rfc1035#section-3.2.4)
 
 ## Test
 
