@@ -5,7 +5,7 @@ const router = express.Router()
 router.get('/', function (req, res) {
     res.send({'dnsEntries': [
             {
-                name,
+                name: 'google.es',
                 type: Packet.TYPE.A,
                 class: Packet.CLASS.IN,
                 ttl: 1,
