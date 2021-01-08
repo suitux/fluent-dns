@@ -9,7 +9,7 @@ const database = new DnsDb({
     dnsEntriesFile: './shared/db/dns-entries.json',
 })
 
-const entries = database.getDnsEntries()
+const entries = database.get()
 
 const server = dns.createServer((request, send, rinfo) => {
     const response = Packet.createResponseFromRequest(request)

@@ -296,7 +296,7 @@
     },
     {
         "name": "casas.trovit.es.vagrant.devel",
-        "address": "192.168.1.148",
+        "address": "192.168.1.162",
         "ttl": 60
     },
     {
