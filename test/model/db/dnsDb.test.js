@@ -2,13 +2,12 @@ const DnsDb = require('../../../model/db/dnsDb')
 const fs = require('fs')
 const _ = require('lodash')
 
-
 let dnsDb
 const dnsEntriesFile = './test/model/db/files/dnsEntries.json'
 
 const dnsFileEntries = [
-    { name: 'lol', address: '8.8.8.8', ttl: 60 },
-    { name: 'test', address: '8.8.8.8', ttl: 60 },
+    { name: 'lol', address: '8.8.8.8', ttl: 60, type: 'A', class: 'IN' },
+    { name: 'test', address: '8.8.8.8', ttl: 60, type: 'A', class: 'IN' },
 ]
 
 beforeEach(() => {
@@ -83,7 +82,6 @@ test('Given a loaded dns database with entries, when we remove entry, the entry 
 })
 
 test('Given a loaded dns database with entries, when we update a entry, then the entry must be updated', () => {
-
     const entryToUpdate = dnsFileEntries[0]
     const entry = {
         name: entryToUpdate.name,
@@ -98,8 +96,10 @@ test('Given a loaded dns database with entries, when we update a entry, then the
     const entriesWithUpdatedEntry = dnsDb.get()
 
     expect(entriesWithNoUpdatedEntry).not.toBe(entriesWithUpdatedEntry)
-    expect(entriesWithNoUpdatedEntry.length).toBe(entriesWithUpdatedEntry.length)
-    expect(_.some(entriesWithUpdatedEntry, entry => entry === entryToUpdate)).toBeFalsy()
-
-
+    expect(entriesWithNoUpdatedEntry.length).toBe(
+        entriesWithUpdatedEntry.length
+    )
+    expect(
+        _.some(entriesWithUpdatedEntry, (entry) => entry === entryToUpdate)
+    ).toBeFalsy()
 })

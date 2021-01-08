@@ -2,1377 +2,1933 @@
     {
         "name": "web.dev",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "rd.trovit.com.vagrant.devel",
         "address": "192.168.56.110",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "rd.clk.thribee.com.vagrant.devel",
         "address": "192.168.56.110",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "accounts.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "api.trovit.com.vagrant.devel",
         "address": "192.168.56.110",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "mobile.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "st.trov.it.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "demo.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "allas.trovit.hu.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "araba.trovit.com.tr.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "at.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "australia.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "auta.trovit.cz.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "auto.trovit.be.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "auto.trovit.it.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "auto.trovit.pt.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "autos.trovit.be.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "autos.trovit.ch.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "autos.trovit.cl.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "autos.trovit.co.cr.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "autos.trovit.com.ec.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "autos.trovit.com.mx.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "autos.trovit.com.pa.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "autos.trovit.com.pe.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "autos.trovit.com.uy.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "autos.trovit.nl.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "autos.trovitargentina.com.ar.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "bil.trovit.no.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "bilar.trovit.se.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "biler.trovit.dk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "bostader.trovit.se.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "car.trovit.co.za.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "carros.trovit.co.ve.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "carros.trovit.com.br.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "carros.trovit.com.co.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "cars.trovit.ae.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "cars.trovit.ca.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "cars.trovit.co.in.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "cars.trovit.co.ke.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "cars.trovit.co.nz.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "cars.trovit.co.uk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "cars.trovit.com.kw.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "cars.trovit.com.pk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "cars.trovit.com.qa.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "cars.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "cars.trovit.ie.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "cars.trovit.my.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "cars.trovit.ng.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "cars.trovit.ph.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "casa.trovit.pt.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "casas.trovit.cl.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "casas.trovit.co.cr.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "casas.trovit.co.ve.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "casas.trovit.com.co.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "casas.trovit.com.ec.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "casas.trovit.com.mx.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "casas.trovit.com.pa.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "casas.trovit.com.pe.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "casas.trovit.com.uy.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "casas.trovit.es.vagrant.devel",
         "address": "192.168.1.162",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "casas.trovitargentina.com.ar.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "case.trovit.it.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "case.trovit.ro.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "coches.trovit.es.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "daire.trovit.com.tr.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "de.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "domovy.trovit.cz.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "eiendom.trovit.no.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "eg.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "empleo.trovit.cl.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "empleo.trovit.co.cr.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "empleo.trovit.co.ve.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "empleo.trovit.com.co.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "empleo.trovit.com.ec.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "empleo.trovit.com.mx.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "empleo.trovit.com.pa.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "empleo.trovit.com.uy.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "empleo.trovit.es.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "empleo.trovitargentina.com.ar.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "empleos.trovit.com.pe.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "emploi.trovit.be.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "emploi.trovit.fr.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "emploi.trovit.lu.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "emploi.trovit.ma.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "emprego.trovit.pt.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "empregos.trovit.com.br.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "fangzi.trovit.com.tw.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "fudosan.trovit.jp.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "gongzuo.trovit.com.tw.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "hjem.trovit.dk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "homes.trovit.co.ke.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "homes.trovit.co.uk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "homes.trovit.co.za.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "homes.trovit.com.hk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "homes.trovit.com.kw.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "homes.trovit.com.pk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "homes.trovit.com.qa.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "homes.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "homes.trovit.my.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "homes.trovit.ng.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "homes.trovit.ph.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "huizen.trovit.be.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "huizen.trovit.nl.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "immo.trovit.be.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "immo.trovit.fr.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "immo.trovit.lu.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "immobilien.trovit.ch.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "immobilier.trovit.ma.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "imoveis.trovit.com.br.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "ingatlan.trovit.hu.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "isler.trovit.com.tr.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jarmu.trovit.hu.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "job.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobb.trovit.no.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobb.trovit.se.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.ae.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.ca.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.ch.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.co.in.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.co.ke.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.co.nz.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.co.uk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.co.za.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.com.hk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.com.kw.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.com.pk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.com.qa.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.com.sg.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.dk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.ie.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.my.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.ng.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "jobs.trovit.ph.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "kendaraan.trovit.co.id.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "kuruma.trovit.jp.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "kyujin.trovit.jp.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "lavoro.trovit.it.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "lowongan.trovit.co.id.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "masini.trovit.ro.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "mieszkania.trovit.pl.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "nhadat.trovit.com.vn.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "oto.trovit.com.vn.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "partners.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "praca.trovit.pl.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "prace.trovit.cz.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "prodotti.trovit.it.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "productos.trovit.es.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "products.trovit.co.uk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "produit.trovit.fr.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "produtos.trovit.com.br.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "property.trovit.ae.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "property.trovit.ca.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "property.trovit.co.in.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "property.trovit.co.nz.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "property.trovit.com.sg.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "property.trovit.ie.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "publishers.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "qiche.trovit.com.tw.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "ru.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "rumah.trovit.co.id.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "sa.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "samochody.trovit.pl.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "slujbe.trovit.ro.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "th.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovitargentina.com.ar.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovitbrasil.com.br.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.ae.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.be.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.ca.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.ch.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.cl.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.co.cr.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.co.id.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.co.in.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.co.ke.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.co.nz.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.co.uk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.co.ve.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.co.za.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.ar.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.br.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.co.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.ec.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.hk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.kw.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.mx.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.pa.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.pe.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.pk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.qa.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.sg.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.tr.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.tw.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.uy.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.com.vn.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.cz.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.dk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.es.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.fr.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.hu.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.ie.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.it.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.jp.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.lu.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.ma.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.my.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.ng.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.nl.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.no.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.ph.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.pl.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.pt.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.ro.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "trovit.se.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "ua.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "vacatures.trovit.be.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "vacatures.trovit.nl.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "vieclam.trovit.com.vn.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "voiture.trovit.fr.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "voiture.trovit.lu.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "voiture.trovit.ma.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovitargentina.com.ar.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovitbrasil.com.br.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.ae.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.be.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.ca.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.ch.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.cl.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.co.cr.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.co.id.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.co.in.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.co.ke.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.co.nz.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.co.uk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.co.ve.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.co.za.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.ar.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.br.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.co.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.ec.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.hk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.kw.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.mx.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.pa.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.pe.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.pk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.qa.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.sg.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.tr.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.tw.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.uy.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.com.vn.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.cz.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.dk.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.es.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.fr.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.hu.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.ie.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.it.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.jp.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.lu.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.ma.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.my.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.ng.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.nl.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.no.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.ph.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.pl.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.pt.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.ro.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "www.trovit.se.vagrant.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
-    { "name": "trovit-web.kafka-pixy", "address": "192.168.1.148", "ttl": 60 },
+    {
+        "name": "trovit-web.kafka-pixy",
+        "address": "192.168.1.148",
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
+    },
     {
         "name": "kubernetes.docker.internal",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     },
     {
         "name": "notifications-sender.trovit.com.devel",
         "address": "192.168.1.148",
-        "ttl": 60
+        "ttl": 60,
+        "type": "A",
+        "class": "IN"
     }
 ]

@@ -23,8 +23,8 @@ const server = dns.createServer((request, send, rinfo) => {
     if (entry) {
         response.answers.push({
             ...entry,
-            type: Packet.TYPE.A,
-            class: Packet.CLASS.IN,
+            type: Packet.TYPE[entry.type],
+            class: Packet.CLASS[entry.class],
         })
     }
     send(response)
