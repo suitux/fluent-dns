@@ -9,6 +9,4 @@ _.forEach(routes, (route) => {
     app.use(route.path, route.router)
 })
 
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
-})
+app.listen(port)

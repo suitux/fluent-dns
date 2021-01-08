@@ -1,1 +1,1274 @@
-[]
+[
+    {
+        "name": "web.dev",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "rd.trovit.com.vagrant.devel",
+        "address": "192.168.56.110",
+        "ttl": 60
+    },
+    {
+        "name": "rd.clk.thribee.com.vagrant.devel",
+        "address": "192.168.56.110",
+        "ttl": 60
+    },
+    {
+        "name": "accounts.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "api.trovit.com.vagrant.devel",
+        "address": "192.168.56.110",
+        "ttl": 60
+    },
+    {
+        "name": "mobile.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    { "name": "st.trov.it.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    {
+        "name": "demo.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "allas.trovit.hu.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "araba.trovit.com.tr.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "at.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "australia.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "auta.trovit.cz.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "auto.trovit.be.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "auto.trovit.it.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "auto.trovit.pt.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "autos.trovit.be.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "autos.trovit.ch.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "autos.trovit.cl.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "autos.trovit.co.cr.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "autos.trovit.com.ec.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "autos.trovit.com.mx.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "autos.trovit.com.pa.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "autos.trovit.com.pe.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "autos.trovit.com.uy.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "autos.trovit.nl.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "autos.trovitargentina.com.ar.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "bil.trovit.no.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "bilar.trovit.se.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "biler.trovit.dk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "bostader.trovit.se.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "car.trovit.co.za.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "carros.trovit.co.ve.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "carros.trovit.com.br.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "carros.trovit.com.co.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "cars.trovit.ae.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "cars.trovit.ca.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "cars.trovit.co.in.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "cars.trovit.co.ke.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "cars.trovit.co.nz.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "cars.trovit.co.uk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "cars.trovit.com.kw.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "cars.trovit.com.pk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "cars.trovit.com.qa.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "cars.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "cars.trovit.ie.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "cars.trovit.my.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "cars.trovit.ng.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "cars.trovit.ph.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "casa.trovit.pt.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "casas.trovit.cl.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "casas.trovit.co.cr.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "casas.trovit.co.ve.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "casas.trovit.com.co.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "casas.trovit.com.ec.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "casas.trovit.com.mx.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "casas.trovit.com.pa.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "casas.trovit.com.pe.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "casas.trovit.com.uy.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "casas.trovit.es.vagrant.devel",
+        "address": "192.168.1.148",
+        "ttl": 60
+    },
+    {
+        "name": "casas.trovitargentina.com.ar.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "case.trovit.it.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "case.trovit.ro.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "coches.trovit.es.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "daire.trovit.com.tr.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "de.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "domovy.trovit.cz.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "eiendom.trovit.no.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "eg.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "empleo.trovit.cl.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "empleo.trovit.co.cr.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "empleo.trovit.co.ve.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "empleo.trovit.com.co.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "empleo.trovit.com.ec.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "empleo.trovit.com.mx.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "empleo.trovit.com.pa.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "empleo.trovit.com.uy.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "empleo.trovit.es.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "empleo.trovitargentina.com.ar.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "empleos.trovit.com.pe.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "emploi.trovit.be.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "emploi.trovit.fr.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "emploi.trovit.lu.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "emploi.trovit.ma.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "emprego.trovit.pt.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "empregos.trovit.com.br.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "fangzi.trovit.com.tw.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "fudosan.trovit.jp.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "gongzuo.trovit.com.tw.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "hjem.trovit.dk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "homes.trovit.co.ke.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "homes.trovit.co.uk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "homes.trovit.co.za.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "homes.trovit.com.hk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "homes.trovit.com.kw.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "homes.trovit.com.pk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "homes.trovit.com.qa.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "homes.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "homes.trovit.my.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "homes.trovit.ng.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "homes.trovit.ph.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "huizen.trovit.be.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "huizen.trovit.nl.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "immo.trovit.be.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "immo.trovit.fr.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "immo.trovit.lu.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "immobilien.trovit.ch.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "immobilier.trovit.ma.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "imoveis.trovit.com.br.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "ingatlan.trovit.hu.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "isler.trovit.com.tr.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jarmu.trovit.hu.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "job.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobb.trovit.no.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobb.trovit.se.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.ae.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.ca.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.ch.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.co.in.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.co.ke.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.co.nz.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.co.uk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.co.za.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.com.hk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.com.kw.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.com.pk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.com.qa.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.com.sg.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.dk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.ie.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.my.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.ng.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "jobs.trovit.ph.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "kendaraan.trovit.co.id.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "kuruma.trovit.jp.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "kyujin.trovit.jp.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "lavoro.trovit.it.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "lowongan.trovit.co.id.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "masini.trovit.ro.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "mieszkania.trovit.pl.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "nhadat.trovit.com.vn.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "oto.trovit.com.vn.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "partners.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "praca.trovit.pl.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "prace.trovit.cz.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "prodotti.trovit.it.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "productos.trovit.es.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "products.trovit.co.uk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "produit.trovit.fr.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "produtos.trovit.com.br.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "property.trovit.ae.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "property.trovit.ca.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "property.trovit.co.in.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "property.trovit.co.nz.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "property.trovit.com.sg.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "property.trovit.ie.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "publishers.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "qiche.trovit.com.tw.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "ru.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "rumah.trovit.co.id.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "sa.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "samochody.trovit.pl.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "slujbe.trovit.ro.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "th.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovitargentina.com.ar.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovitbrasil.com.br.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    { "name": "trovit.ae.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.be.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.ca.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.ch.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.cl.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    {
+        "name": "trovit.co.cr.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.co.id.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.co.in.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.co.ke.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.co.nz.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.co.uk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.co.ve.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.co.za.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.com.ar.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.com.br.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.com.co.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.com.ec.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.com.hk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.com.kw.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.com.mx.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.com.pa.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.com.pe.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.com.pk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.com.qa.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.com.sg.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.com.tr.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.com.tw.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "trovit.com.uy.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    { "name": "trovit.com.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    {
+        "name": "trovit.com.vn.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    { "name": "trovit.cz.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.dk.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.es.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.fr.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.hu.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.ie.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.it.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.jp.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.lu.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.ma.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.my.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.ng.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.nl.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.no.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.ph.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.pl.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.pt.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.ro.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    { "name": "trovit.se.vagrant.devel", "address": "127.0.0.1", "ttl": 60 },
+    {
+        "name": "ua.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "vacatures.trovit.be.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "vacatures.trovit.nl.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "vieclam.trovit.com.vn.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "voiture.trovit.fr.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "voiture.trovit.lu.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "voiture.trovit.ma.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovitargentina.com.ar.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovitbrasil.com.br.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.ae.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.be.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.ca.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.ch.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.cl.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.co.cr.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.co.id.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.co.in.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.co.ke.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.co.nz.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.co.uk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.co.ve.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.co.za.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.ar.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.br.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.co.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.ec.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.hk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.kw.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.mx.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.pa.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.pe.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.pk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.qa.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.sg.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.tr.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.tw.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.uy.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.com.vn.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.cz.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.dk.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.es.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.fr.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.hu.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.ie.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.it.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.jp.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.lu.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.ma.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.my.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.ng.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.nl.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.no.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.ph.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.pl.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.pt.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.ro.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "www.trovit.se.vagrant.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    { "name": "trovit-web.kafka-pixy", "address": "127.0.0.1", "ttl": 60 },
+    {
+        "name": "kubernetes.docker.internal",
+        "address": "127.0.0.1",
+        "ttl": 60
+    },
+    {
+        "name": "notifications-sender.trovit.com.devel",
+        "address": "127.0.0.1",
+        "ttl": 60
+    }
+]
