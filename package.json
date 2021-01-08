@@ -1,30 +1,33 @@
 {
-  "name": "fluent-dns",
-  "version": "1.0.0",
-  "description": "Fluent DNS Server",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/suitux/fluent-dns.git"
-  },
-  "keywords": [
-    "fluent",
-    "dns",
-    "server"
-  ],
-  "author": "suitux",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/suitux/fluent-dns/issues"
-  },
-  "homepage": "https://github.com/suitux/fluent-dns#readme",
-  "dependencies": {
-    "dns2": "^1.4.2",
-    "express": "^4.17.1",
-    "lodash": "^4.17.20"
-  }
+    "name": "fluent-dns",
+    "version": "1.0.0",
+    "description": "Fluent DNS Server",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/suitux/fluent-dns.git"
+    },
+    "keywords": [
+        "fluent",
+        "dns",
+        "server"
+    ],
+    "author": "suitux",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/suitux/fluent-dns/issues"
+    },
+    "homepage": "https://github.com/suitux/fluent-dns#readme",
+    "dependencies": {
+        "dns2": "^1.4.2",
+        "express": "^4.17.1",
+        "lodash": "^4.17.20"
+    },
+    "devDependencies": {
+        "prettier": "^2.2.1"
+    }
 }
