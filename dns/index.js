@@ -6,7 +6,6 @@ const DnsDb = require('../model/db/dnsDb')
 const { find } = require('lodash')
 
 const database = new DnsDb({
-    hostsFile: './shared/db/hosts.json',
     dnsEntriesFile: './shared/db/dns-entries.json',
 })
 
