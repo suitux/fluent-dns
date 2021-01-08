@@ -21,7 +21,6 @@ const server = dns.createServer((request, send, rinfo) => {
     })
 
     if (entry) {
-        console.log(JSON.stringify(entry))
         response.answers.push({
             ...entry,
             type: Packet.TYPE.A,
