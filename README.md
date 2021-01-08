@@ -29,11 +29,11 @@ npm test
 
 ```json
 {
-    "name": "google.es",          // Name of the domain
-    "address": "192.168.1.148",   // Address of the domain
-    "ttl": 60,                    // Time to live
-    "type": "A",                  // Record Type
-    "class": "IN"                 // Class Type
+    "name": "google.es",
+    "address": "192.168.1.148",
+    "ttl": 60,
+    "type": "A",
+    "class": "IN"
 }
 ```
 
