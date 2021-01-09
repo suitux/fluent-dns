@@ -4,12 +4,12 @@ const crypto = require('crypto')
 
 module.exports = class DnsDb {
     dnsEntriesFile = ''
-    dnsEntries = []
+    static _dnsEntries = []
 
     static _mustDnsEntriesBeUpdatedFromFile = false
 
     constructor(config) {
-        this.dnsEntriesFile = config.dnsEntriesFile
+        DnsDb._dnsEntriesFile = config.dnsEntriesFile
 
         this._setEntriesFromFile()
     }
@@ -19,12 +19,12 @@ module.exports = class DnsDb {
             this._setEntriesFromFile()
         }
 
-        return [...this.dnsEntries]
+        return [...DnsDb._dnsEntries]
     }
 
     add = (newEntry) => {
         const entryNameExists = _.some(
-            this.dnsEntries,
+            DnsDb._dnsEntries,
             (entry) =>
                 entry.name === newEntry.name &&
                 entry.type === newEntry.type &&
@@ -32,31 +32,31 @@ module.exports = class DnsDb {
         )
 
         if (!entryNameExists) {
-            this.dnsEntries.push({ id: this._generateId(), ...newEntry })
+            DnsDb._dnsEntries.push({ id: this._generateId(), ...newEntry })
             this._save()
         }
     }
 
     remove = (id) => {
-        this.dnsEntries = _.filter(this.dnsEntries, (entry) => entry.id !== id)
+        DnsDb._dnsEntries = _.filter(DnsDb._dnsEntries, (entry) => entry.id !== id)
 
         this._save()
     }
 
     update = (id, newEntry) => {
         const oldEntryIndex = _.findIndex(
-            this.dnsEntries,
+            DnsDb._dnsEntries,
             (entry) => entry.id === id
         )
 
         if (oldEntryIndex !== -1) {
-            this.dnsEntries[oldEntryIndex] = { id, ...newEntry }
+            DnsDb._dnsEntries[oldEntryIndex] = { id, ...newEntry }
             this._save()
         }
     }
 
     _save = () => {
-        fs.writeFileSync(this.dnsEntriesFile, JSON.stringify(this.dnsEntries))
+        fs.writeFileSync(DnsDb._dnsEntriesFile, JSON.stringify(DnsDb._dnsEntries))
         DnsDb._mustDnsEntriesBeUpdatedFromFile = true
     }
 
@@ -65,9 +65,9 @@ module.exports = class DnsDb {
     }
 
     _setEntriesFromFile() {
-        const dnsEntriesBuffer = fs.readFileSync(this.dnsEntriesFile)
+        const dnsEntriesBuffer = fs.readFileSync(DnsDb._dnsEntriesFile)
 
-        this.dnsEntries = JSON.parse(
+        DnsDb._dnsEntries = JSON.parse(
             new Buffer.from(dnsEntriesBuffer).toString()
         )
 
