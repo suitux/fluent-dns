@@ -32,84 +32,91 @@ const dnsFileEntries = [
     },
 ]
 
-beforeEach(() => {
-    fs.writeFileSync(dnsEntriesFile, JSON.stringify(dnsFileEntries))
+describe('Dns Database tests', () => {
+    beforeEach(() => {
+        fs.writeFileSync(dnsEntriesFile, JSON.stringify(dnsFileEntries))
 
-    dnsDb = new DnsDb({
-        dnsEntriesFile,
+        dnsDb = new DnsDb({
+            dnsEntriesFile,
+        })
     })
-})
 
-afterEach(() => {
-    fs.unlinkSync(dnsEntriesFile)
-})
+    afterEach(() => {
+        fs.unlinkSync(dnsEntriesFile)
+    })
 
-test('Given a loaded dns database with entries, when get all the entries, it should retrieve all the entries', () => {
-    const entries = dnsDb.get()
+    test('Given a loaded dns database with entries, when get all the entries, it should retrieve all the entries', () => {
+        const entries = dnsDb.get()
 
-    expect(entries).not.toBeUndefined()
-    expect(entries.length).not.toBeLessThan(1)
-})
+        expect(entries).not.toBeUndefined()
+        expect(entries.length).not.toBeLessThan(1)
+    })
 
-test('Given a loaded dns database with entries, when we add one entry, the entry must be saved', () => {
-    const entry = {
-        name: 'new_entry',
-        address: '8.8.8.8',
-        ttl: 60,
-        type: 'A',
-        class: 'IN',
-    }
+    test('Given a loaded dns database with entries, when we add one entry, the entry must be saved', () => {
+        const entry = {
+            name: 'new_entry',
+            address: '8.8.8.8',
+            ttl: 60,
+            type: 'A',
+            class: 'IN',
+        }
 
-    const oldEntries = dnsDb.get()
+        const oldEntries = dnsDb.get()
 
-    dnsDb.add(entry)
+        dnsDb.add(entry)
 
-    const newEntries = dnsDb.get()
+        const newEntries = dnsDb.get()
 
-    expect(oldEntries).not.toBe(newEntries)
-    expect(oldEntries.length).toBeLessThan(newEntries.length)
-})
+        expect(oldEntries).not.toBe(newEntries)
+        expect(oldEntries.length).toBeLessThan(newEntries.length)
+    })
 
-test('Given a loaded dns database with entries, when we add one existing entry, the entry wont be added', () => {
-    const entry = dnsFileEntries[0]
+    test('Given a loaded dns database with entries, when we add one existing entry, the entry wont be added', () => {
+        const entry = dnsFileEntries[0]
 
-    const oldEntries = dnsDb.get()
+        const oldEntries = dnsDb.get()
 
-    dnsDb.add(entry)
+        dnsDb.add(entry)
 
-    const newEntries = dnsDb.get()
+        const newEntries = dnsDb.get()
 
-    expect(oldEntries.length).toBe(newEntries.length)
-})
+        expect(oldEntries.length).toBe(newEntries.length)
+    })
 
-test('Given a loaded dns database with entries, when we remove entry, the entry must be removed', () => {
-    const entryId = 'a'
+    test('Given a loaded dns database with entries, when we remove entry, the entry must be removed', () => {
+        const entryId = 'a'
 
-    const oldEntries = dnsDb.get()
+        const oldEntries = dnsDb.get()
 
-    dnsDb.remove(entryId)
+        dnsDb.remove(entryId)
 
-    const newEntries = dnsDb.get()
+        const newEntries = dnsDb.get()
 
-    expect(oldEntries).not.toBe(newEntries)
-    expect(newEntries.length).toBeLessThan(oldEntries.length)
-})
+        expect(oldEntries).not.toBe(newEntries)
+        expect(newEntries.length).toBeLessThan(oldEntries.length)
+    })
 
-test('Given a loaded dns database with entries, when we update a entry, then the entry must be updated', () => {
-    const newEntryName = 'jaaarl'
-    const entryIdToUpdate = 'a'
-    const entryToUpdate = { ...dnsFileEntries[0] }
-    entryToUpdate.name = newEntryName
+    test('Given a loaded dns database with entries, when we update a entry, then the entry must be updated', () => {
+        const newEntryName = 'jaaarl'
+        const entryIdToUpdate = 'a'
+        const entryToUpdate = { ...dnsFileEntries[0] }
+        entryToUpdate.name = newEntryName
 
-    const entriesWithNoUpdatedEntry = dnsDb.get()
+        const entriesWithNoUpdatedEntry = dnsDb.get()
 
-    dnsDb.update(entryIdToUpdate, entryToUpdate)
+        dnsDb.update(entryIdToUpdate, entryToUpdate)
 
-    const entriesWithUpdatedEntry = dnsDb.get()
+        const entriesWithUpdatedEntry = dnsDb.get()
 
-    expect(entriesWithNoUpdatedEntry).not.toBe(entriesWithUpdatedEntry)
-    expect(entriesWithNoUpdatedEntry.length).toBe(
-        entriesWithUpdatedEntry.length
-    )
-    expect(_.find(entriesWithUpdatedEntry, entry => entry.id === entryIdToUpdate).name).toBe(newEntryName)
+        expect(entriesWithNoUpdatedEntry).not.toBe(entriesWithUpdatedEntry)
+        expect(entriesWithNoUpdatedEntry.length).toBe(
+            entriesWithUpdatedEntry.length
+        )
+        expect(
+            _.find(
+                entriesWithUpdatedEntry,
+                (entry) => entry.id === entryIdToUpdate
+            ).name
+        ).toBe(newEntryName)
+    })
 })
