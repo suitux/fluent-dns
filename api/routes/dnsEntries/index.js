@@ -11,7 +11,16 @@ router.get('/', function (req, res) {
 })
 
 router.post('/', function (req, res) {
-    res.send(req.body)
+    let message = null
+
+    try {
+        message = dnsDb.add(req.body)
+    } catch (e) {
+        res.status(400)
+        message = e.message
+    }
+
+    res.send(message)
 })
 
 router.delete('/', function (req, res) {
