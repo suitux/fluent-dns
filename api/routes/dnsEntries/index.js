@@ -24,7 +24,9 @@ router.post('/', function (req, res) {
 })
 
 router.delete('/', function (req, res) {
-    res.send('delete dns entry')
+    let message = dnsDb.remove(req.body.id)
+
+    res.send(message)
 })
 
 router.patch('/', function (req, res) {

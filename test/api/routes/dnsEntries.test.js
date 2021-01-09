@@ -95,4 +95,17 @@ describe('Dns Entries Express Routes', () => {
                 done()
             })
     })
+
+    test('Given the DNS Entries API, when we delete an existing entry, then it should be deleted', async (done) => {
+        const entryToDelete = dnsFileEntries[0]
+
+        request(app)
+            .delete('/v1/entries')
+            .send({ id: entryToDelete.id })
+            .then((response) => {
+                expect(response.statusCode).toBe(200)
+                expect(response.text).toEqual(entryToDelete.id)
+                done()
+            })
+    })
 })

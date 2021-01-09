@@ -45,9 +45,12 @@ module.exports = class DnsDb {
     }
 
     remove = (id) => {
+        const initialLength = DnsDb._dnsEntries.length
         DnsDb._dnsEntries = _.filter(DnsDb._dnsEntries, (entry) => entry.id !== id)
 
         this._save()
+
+        return initialLength === DnsDb._dnsEntries.length ? null : id
     }
 
     update = (id, newEntry) => {
