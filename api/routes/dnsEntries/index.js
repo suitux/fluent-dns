@@ -1,21 +1,17 @@
 const express = require('express')
 const Packet = require("dns2/packet");
 const router = express.Router()
+const { dnsEntriesFilePath } = require('../../../config')
+const DnsDb = require('../../../model/db/dnsDb')
+
+const dnsDb = new DnsDb({dnsEntriesFilePath})
 
 router.get('/', function (req, res) {
-    res.send({'dnsEntries': [
-            {
-                name: 'google.es',
-                type: Packet.TYPE.A,
-                class: Packet.CLASS.IN,
-                ttl: 1,
-                address: '8.8.8.8'
-            }
-
-        , 'Dns entry 2']})
+    res.send(dnsDb.get())
 })
 
 router.post('/', function (req, res) {
+
     res.send('add dns entry')
 })
 

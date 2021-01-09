@@ -9,4 +9,6 @@ _.forEach(routes, (route) => {
     app.use(route.path, route.router)
 })
 
-app.listen(port)
+app.listen(port, () => {
+    console.log('Rest API Started')
+})
