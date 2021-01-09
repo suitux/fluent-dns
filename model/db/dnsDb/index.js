@@ -34,6 +34,8 @@ module.exports = class DnsDb {
         if (!entryNameExists) {
             DnsDb._dnsEntries.push({ id: this._generateId(), ...newEntry })
             this._save()
+        } else {
+            throw Error('Entry already exists')
         }
     }
 

@@ -72,15 +72,13 @@ describe('Dns Database tests', () => {
     })
 
     test('Given a loaded dns database with entries, when we add one existing entry, the entry wont be added', () => {
+
+        let exceptionThrown = false
         const entry = dnsFileEntries[0]
 
         const oldEntries = dnsDb.get()
 
-        dnsDb.add(entry)
-
-        const newEntries = dnsDb.get()
-
-        expect(oldEntries.length).toBe(newEntries.length)
+        expect(() => dnsDb.add(entry)).toThrow(Error)
     })
 
     test('Given a loaded dns database with entries, when we remove entry, the entry must be removed', () => {
