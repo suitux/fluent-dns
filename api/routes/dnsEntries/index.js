@@ -1,18 +1,17 @@
 const express = require('express')
-const Packet = require("dns2/packet");
+const Packet = require('dns2/packet')
 const router = express.Router()
 const { dnsEntriesFilePath } = require('../../../config')
 const DnsDb = require('../../../model/db/dnsDb')
 
-const dnsDb = new DnsDb({dnsEntriesFilePath})
+const dnsDb = new DnsDb({ dnsEntriesFilePath })
 
 router.get('/', function (req, res) {
     res.send(dnsDb.get())
 })
 
 router.post('/', function (req, res) {
-
-    res.send('add dns entry')
+    res.send(req.body)
 })
 
 router.delete('/', function (req, res) {

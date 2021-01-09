@@ -25,6 +25,7 @@
     "dependencies": {
         "dns2": "^1.4.2",
         "express": "^4.17.1",
+        "body-parser": "^1.19.0",
         "lodash": "^4.17.20"
     },
     "devDependencies": {
