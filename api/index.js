@@ -16,3 +16,5 @@ _.forEach(routes, (route) => {
 app.listen(port, () => {
     console.log('Rest API Started')
 })
+
+module.exports = app
