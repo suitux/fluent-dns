@@ -57,6 +57,7 @@ module.exports = class DnsDb {
 
     _save = () => {
         fs.writeFileSync(this.dnsEntriesFile, JSON.stringify(this.dnsEntries))
+        DnsDb._mustDnsEntriesBeUpdatedFromFile = true
     }
 
     _generateId = () => {
