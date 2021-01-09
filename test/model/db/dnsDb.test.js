@@ -6,8 +6,30 @@ let dnsDb
 const dnsEntriesFile = './test/model/db/files/dnsEntries.json'
 
 const dnsFileEntries = [
-    { name: 'lol', address: '8.8.8.8', ttl: 60, type: 'A', class: 'IN' },
-    { name: 'test', address: '8.8.8.8', ttl: 60, type: 'A', class: 'IN' },
+    {
+        id: 'a',
+        name: 'lol',
+        address: '8.8.8.8',
+        ttl: 60,
+        type: 'A',
+        class: 'IN',
+    },
+    {
+        id: 'b',
+        name: 'test',
+        address: '8.8.8.8',
+        ttl: 60,
+        type: 'A',
+        class: 'IN',
+    },
+    {
+        id: 'c',
+        name: 'taaaaaest',
+        address: '8.8.4.4',
+        ttl: 60,
+        type: 'AAAA',
+        class: 'OUT',
+    },
 ]
 
 beforeEach(() => {
@@ -34,6 +56,8 @@ test('Given a loaded dns database with entries, when we add one entry, the entry
         name: 'new_entry',
         address: '8.8.8.8',
         ttl: 60,
+        type: 'A',
+        class: 'IN',
     }
 
     const oldEntries = dnsDb.get()
@@ -47,11 +71,7 @@ test('Given a loaded dns database with entries, when we add one entry, the entry
 })
 
 test('Given a loaded dns database with entries, when we add one existing entry, the entry wont be added', () => {
-    const entry = {
-        name: 'lol',
-        address: '8.8.8.8',
-        ttl: 60,
-    }
+    const entry = dnsFileEntries[0]
 
     const oldEntries = dnsDb.get()
 
@@ -63,17 +83,11 @@ test('Given a loaded dns database with entries, when we add one existing entry, 
 })
 
 test('Given a loaded dns database with entries, when we remove entry, the entry must be removed', () => {
-    const entry = {
-        name: 'to_delete_entry',
-        address: '8.8.8.8',
-        ttl: 60,
-    }
-
-    dnsDb.add(entry)
+    const entryId = 'a'
 
     const oldEntries = dnsDb.get()
 
-    dnsDb.remove(entry)
+    dnsDb.remove(entryId)
 
     const newEntries = dnsDb.get()
 
@@ -82,16 +96,14 @@ test('Given a loaded dns database with entries, when we remove entry, the entry 
 })
 
 test('Given a loaded dns database with entries, when we update a entry, then the entry must be updated', () => {
-    const entryToUpdate = dnsFileEntries[0]
-    const entry = {
-        name: entryToUpdate.name,
-        address: '127.0.0.1',
-        ttl: 6000,
-    }
+    const newEntryName = 'jaaarl'
+    const entryIdToUpdate = 'a'
+    const entryToUpdate = { ...dnsFileEntries[0] }
+    entryToUpdate.name = newEntryName
 
     const entriesWithNoUpdatedEntry = dnsDb.get()
 
-    dnsDb.update(entryToUpdate, entry)
+    dnsDb.update(entryIdToUpdate, entryToUpdate)
 
     const entriesWithUpdatedEntry = dnsDb.get()
 
@@ -99,7 +111,5 @@ test('Given a loaded dns database with entries, when we update a entry, then the
     expect(entriesWithNoUpdatedEntry.length).toBe(
         entriesWithUpdatedEntry.length
     )
-    expect(
-        _.some(entriesWithUpdatedEntry, (entry) => entry === entryToUpdate)
-    ).toBeFalsy()
+    expect(_.find(entriesWithUpdatedEntry, entry => entry.id === entryIdToUpdate).name).toBe(newEntryName)
 })
