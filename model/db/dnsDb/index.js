@@ -3,13 +3,13 @@ const _ = require('lodash')
 const crypto = require('crypto')
 
 module.exports = class DnsDb {
-    dnsEntriesFile = ''
+    dnsEntriesFilePath = ''
     static _dnsEntries = []
 
     static _mustDnsEntriesBeUpdatedFromFile = false
 
     constructor(config) {
-        DnsDb._dnsEntriesFile = config.dnsEntriesFile
+        this.dnsEntriesFilePath = config.dnsEntriesFilePath
 
         this._setEntriesFromFile()
     }
@@ -56,7 +56,7 @@ module.exports = class DnsDb {
     }
 
     _save = () => {
-        fs.writeFileSync(DnsDb._dnsEntriesFile, JSON.stringify(DnsDb._dnsEntries))
+        fs.writeFileSync(this.dnsEntriesFilePath, JSON.stringify(DnsDb._dnsEntries))
         DnsDb._mustDnsEntriesBeUpdatedFromFile = true
     }
 
@@ -65,7 +65,7 @@ module.exports = class DnsDb {
     }
 
     _setEntriesFromFile() {
-        const dnsEntriesBuffer = fs.readFileSync(DnsDb._dnsEntriesFile)
+        const dnsEntriesBuffer = fs.readFileSync(this.dnsEntriesFilePath)
 
         DnsDb._dnsEntries = JSON.parse(
             new Buffer.from(dnsEntriesBuffer).toString()

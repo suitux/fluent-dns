@@ -5,8 +5,11 @@ const { Packet } = dns
 const DnsDb = require('../model/db/dnsDb')
 const { find } = require('lodash')
 
+const { dnsEntriesFilePath } = require('../config')
+
+
 const database = new DnsDb({
-    dnsEntriesFile: './shared/db/dns-entries.json',
+    dnsEntriesFilePath
 })
 
 const entries = database.get()

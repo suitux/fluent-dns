@@ -3,7 +3,7 @@ const fs = require('fs')
 const _ = require('lodash')
 
 let dnsDb
-const dnsEntriesFile = './test/model/db/files/dnsEntries.json'
+const dnsEntriesFilePath = './test/model/db/files/dnsEntries.json'
 
 const dnsFileEntries = [
     {
@@ -34,15 +34,15 @@ const dnsFileEntries = [
 
 describe('Dns Database tests', () => {
     beforeEach(() => {
-        fs.writeFileSync(dnsEntriesFile, JSON.stringify(dnsFileEntries))
+        fs.writeFileSync(dnsEntriesFilePath, JSON.stringify(dnsFileEntries))
 
         dnsDb = new DnsDb({
-            dnsEntriesFile,
+            dnsEntriesFilePath,
         })
     })
 
     afterEach(() => {
-        fs.unlinkSync(dnsEntriesFile)
+        fs.unlinkSync(dnsEntriesFilePath)
     })
 
     test('Given a loaded dns database with entries, when get all the entries, it should retrieve all the entries', () => {
