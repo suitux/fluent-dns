@@ -23,6 +23,8 @@ module.exports = class DnsDb {
     }
 
     add = (newEntry) => {
+        let entryAdded = {}
+
         const entryNameExists = _.some(
             DnsDb._dnsEntries,
             (entry) =>
@@ -32,11 +34,14 @@ module.exports = class DnsDb {
         )
 
         if (!entryNameExists) {
-            DnsDb._dnsEntries.push({ id: this._generateId(), ...newEntry })
+            entryAdded = { id: this._generateId(), ...newEntry }
+            DnsDb._dnsEntries.push(entryAdded)
             this._save()
         } else {
             throw Error('Entry already exists')
         }
+
+        return entryAdded
     }
 
     remove = (id) => {
