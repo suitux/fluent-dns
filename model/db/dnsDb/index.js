@@ -6,17 +6,19 @@ module.exports = class DnsDb {
     dnsEntriesFile = ''
     dnsEntries = []
 
+    static _mustDnsEntriesBeUpdatedFromFile = false
+
     constructor(config) {
         this.dnsEntriesFile = config.dnsEntriesFile
 
-        const dnsEntriesBuffer = fs.readFileSync(this.dnsEntriesFile)
-
-        this.dnsEntries = JSON.parse(
-            new Buffer.from(dnsEntriesBuffer).toString()
-        )
+        this._setEntriesFromFile()
     }
 
     get = () => {
+        if (DnsDb._mustDnsEntriesBeUpdatedFromFile) {
+            this._setEntriesFromFile()
+        }
+
         return [...this.dnsEntries]
     }
 
@@ -30,16 +32,13 @@ module.exports = class DnsDb {
         )
 
         if (!entryNameExists) {
-            this.dnsEntries.push({id: this._generateId(), ...newEntry})
+            this.dnsEntries.push({ id: this._generateId(), ...newEntry })
             this._save()
         }
     }
 
     remove = (id) => {
-        this.dnsEntries = _.filter(
-            this.dnsEntries,
-            (entry) => entry.id !== id
-        )
+        this.dnsEntries = _.filter(this.dnsEntries, (entry) => entry.id !== id)
 
         this._save()
     }
@@ -47,8 +46,7 @@ module.exports = class DnsDb {
     update = (id, newEntry) => {
         const oldEntryIndex = _.findIndex(
             this.dnsEntries,
-            (entry) =>
-                entry.id === id
+            (entry) => entry.id === id
         )
 
         if (oldEntryIndex !== -1) {
@@ -62,6 +60,16 @@ module.exports = class DnsDb {
     }
 
     _generateId = () => {
-        return crypto.randomBytes(20).toString('hex');
+        return crypto.randomBytes(20).toString('hex')
+    }
+
+    _setEntriesFromFile() {
+        const dnsEntriesBuffer = fs.readFileSync(this.dnsEntriesFile)
+
+        this.dnsEntries = JSON.parse(
+            new Buffer.from(dnsEntriesBuffer).toString()
+        )
+
+        DnsDb._mustDnsEntriesBeUpdatedFromFile = false
     }
 }
