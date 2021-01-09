@@ -1,3 +1,3 @@
 module.exports = {
-    dnsEntriesFilePath: './shared/db/dns-entries.json',
+    dnsEntriesFilePath: process.env.DNS_ENTRIES_FILE_PATH || './shared/db/dns-entries.json',
 }
