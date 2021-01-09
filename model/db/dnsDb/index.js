@@ -66,6 +66,8 @@ module.exports = class DnsDb {
 
             return updatedEntry
         }
+
+        return null
     }
 
     _save = () => {
