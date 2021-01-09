@@ -24,13 +24,11 @@ router.post('/', function (req, res) {
 })
 
 router.delete('/', function (req, res) {
-    let message = dnsDb.remove(req.body.id)
-
-    res.send(message)
+    res.send(dnsDb.remove(req.body.id))
 })
 
 router.patch('/', function (req, res) {
-    res.send('update dns entry')
+    res.send(dnsDb.update(req.body.id, req.body.data))
 })
 
 module.exports = router

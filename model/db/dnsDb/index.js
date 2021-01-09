@@ -60,8 +60,11 @@ module.exports = class DnsDb {
         )
 
         if (oldEntryIndex !== -1) {
-            DnsDb._dnsEntries[oldEntryIndex] = { id, ...newEntry }
+            const updatedEntry = { id, ...newEntry }
+            DnsDb._dnsEntries[oldEntryIndex] = updatedEntry
             this._save()
+
+            return updatedEntry
         }
     }
 

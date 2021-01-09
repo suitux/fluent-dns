@@ -96,6 +96,31 @@ describe('Dns Entries Express Routes', () => {
             })
     })
 
+    test('Given the DNS Entries API, when we update an entry, then it should be updated', async (done) => {
+        const entryIdToUpdate = dnsFileEntries[0].id
+
+        const newEntryData = {
+            id: entryIdToUpdate,
+            name: 'lol',
+            address: '8.8.8.8',
+            ttl: 60,
+            type: 'A',
+            class: 'IN',
+        }
+
+        request(app)
+            .patch('/v1/entries')
+            .send({
+                id: entryIdToUpdate,
+                data: newEntryData,
+            })
+            .then((response) => {
+                expect(response.statusCode).toBe(200)
+                expect(response.body).toEqual(newEntryData)
+                done()
+            })
+    })
+
     test('Given the DNS Entries API, when we delete an existing entry, then it should be deleted', async (done) => {
         const entryToDelete = dnsFileEntries[0]
 
