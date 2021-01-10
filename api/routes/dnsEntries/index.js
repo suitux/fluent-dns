@@ -17,28 +17,37 @@ router.post('/', function (req, res) {
         message = dnsDb.add(req.body)
     } catch (e) {
         res.status(400)
-        message = e.message
+        message = {
+            error: true,
+            message: e.message,
+        }
     }
 
     res.send(message)
 })
 
 router.delete('/', function (req, res) {
+    const message = { error: false }
+
     const removedId = dnsDb.remove(req.body.id)
-    if(!removedId) {
+    if (!removedId) {
         res.status(400)
+        message.error = true
     }
 
-    res.send(removedId)
+    res.send({ ...message, removedId })
 })
 
 router.patch('/', function (req, res) {
+    const message = { error: false }
+
     const updatedEntry = dnsDb.update(req.body.id, req.body.data)
-    if(!updatedEntry) {
+    if (!updatedEntry) {
         res.status(400)
+        message.error = true
     }
 
-    res.send(updatedEntry)
+    res.send({ ...message, updatedEntry })
 })
 
 module.exports = router

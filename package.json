@@ -23,9 +23,10 @@
     },
     "homepage": "https://github.com/suitux/fluent-dns#readme",
     "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
         "dns2": "^1.4.2",
         "express": "^4.17.1",
-        "body-parser": "^1.19.0",
         "lodash": "^4.17.20"
     },
     "devDependencies": {

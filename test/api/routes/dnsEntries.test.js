@@ -116,7 +116,7 @@ describe('Dns Entries Express Routes', () => {
             })
             .then((response) => {
                 expect(response.statusCode).toBe(200)
-                expect(response.body).toEqual(newEntryData)
+                expect(response.body.updatedEntry).toEqual(newEntryData)
                 done()
             })
     })
@@ -129,7 +129,7 @@ describe('Dns Entries Express Routes', () => {
             .send({ id: entryToDelete.id })
             .then((response) => {
                 expect(response.statusCode).toBe(200)
-                expect(response.text).toEqual(entryToDelete.id)
+                expect(response.body.removedId).toEqual(entryToDelete.id)
                 done()
             })
     })
