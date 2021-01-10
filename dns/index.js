@@ -1,24 +1,28 @@
-const dns = require('dns2')
+const DNS = require('dns2')
 
-const { Packet } = dns
+const { Packet } = DNS
 
 const DnsDb = require('../model/db/dnsDb')
 const { find } = require('lodash')
 
 const { dnsEntriesFilePath } = require('../config')
 
-
 const database = new DnsDb({
-    dnsEntriesFilePath
+    dnsEntriesFilePath,
 })
 
-const server = dns.createServer((request, send, rinfo) => {
+const dnsClient = new DNS()
+
+const server = DNS.createServer(async (request, send, rinfo) => {
     const response = Packet.createResponseFromRequest(request)
     const [question] = request.questions
-    const { name } = question
 
     const entry = find(database.get(), (entry) => {
-        return entry.name === name
+        return (
+            entry.name === question.name &&
+            entry.type === question.type &&
+            entry.class === question.class
+        )
     })
 
     if (entry) {
@@ -28,6 +32,7 @@ const server = dns.createServer((request, send, rinfo) => {
             class: Packet.CLASS[entry.class],
         })
     }
+
     send(response)
 })
 
