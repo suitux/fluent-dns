@@ -72,7 +72,7 @@ describe('Dns Entries Express Routes', () => {
             .set('Accept', 'application/json')
             .then((response) => {
                 expect(response.statusCode).toBe(200)
-                expect(response.body.name).toEqual(newEntry.name)
+                expect(response.body.data.name).toEqual(newEntry.name)
                 done()
             })
     })

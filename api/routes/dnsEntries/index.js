@@ -11,10 +11,11 @@ router.get('/', function (req, res) {
 })
 
 router.post('/', function (req, res) {
-    let message = null
+    let message = {error: false}
+    let entry = {}
 
     try {
-        message = dnsDb.add(req.body)
+        entry = dnsDb.add(req.body)
     } catch (e) {
         res.status(400)
         message = {
@@ -23,7 +24,7 @@ router.post('/', function (req, res) {
         }
     }
 
-    res.send(message)
+    res.send({...message, data: entry})
 })
 
 router.delete('/', function (req, res) {
