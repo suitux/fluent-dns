@@ -116,7 +116,7 @@ describe('Dns Entries Express Routes', () => {
             })
             .then((response) => {
                 expect(response.statusCode).toBe(200)
-                expect(response.body.updatedEntry).toEqual(newEntryData)
+                expect(response.body.data).toEqual(newEntryData)
                 done()
             })
     })

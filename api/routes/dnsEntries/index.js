@@ -48,7 +48,7 @@ router.patch('/', function (req, res) {
         message.error = true
     }
 
-    res.send({ ...message, updatedEntry })
+    res.send({ ...message, data: updatedEntry })
 })
 
 module.exports = router
