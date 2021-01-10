@@ -29,8 +29,8 @@ module.exports = class DnsDb {
             DnsDb._dnsEntries,
             (entry) =>
                 entry.name === newEntry.name &&
-                entry.type === newEntry.type &&
-                entry.class === newEntry.class
+                entry.type.toString() === newEntry.type.toString() &&
+                entry.class.toString() === newEntry.class.toString()
         )
 
         if (!entryNameExists) {

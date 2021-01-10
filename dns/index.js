@@ -20,8 +20,8 @@ const server = DNS.createServer(async (request, send, rinfo) => {
     const entry = find(database.get(), (entry) => {
         return (
             entry.name === question.name &&
-            toString(entry.type) === toString(question.type) &&
-            toString(entry.class) === toString(question.class)
+            entry.type.toString() === question.type.toString() &&
+            entry.class.toString() === question.class.toString()
         )
     })
 
