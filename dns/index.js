@@ -20,16 +20,16 @@ const server = DNS.createServer(async (request, send, rinfo) => {
     const entry = find(database.get(), (entry) => {
         return (
             entry.name === question.name &&
-            entry.type === question.type &&
-            entry.class === question.class
+            toString(entry.type) === toString(question.type) &&
+            toString(entry.class) === toString(question.class)
         )
     })
 
     if (entry) {
         response.answers.push({
             ...entry,
-            type: Packet.TYPE[entry.type],
-            class: Packet.CLASS[entry.class],
+            type: entry.type,
+            class: entry.class,
         })
     }
 
