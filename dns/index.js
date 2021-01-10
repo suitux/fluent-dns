@@ -12,14 +12,12 @@ const database = new DnsDb({
     dnsEntriesFilePath
 })
 
-const entries = database.get()
-
 const server = dns.createServer((request, send, rinfo) => {
     const response = Packet.createResponseFromRequest(request)
     const [question] = request.questions
     const { name } = question
 
-    const entry = find(entries, (entry) => {
+    const entry = find(database.get(), (entry) => {
         return entry.name === name
     })
 
