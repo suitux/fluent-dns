@@ -1,7 +1,7 @@
 # Fluent DNS
 
-Fluent DNS is a javascript based DNS that simplifies the work 
-of mounting a DNS server 
+Fluent DNS is a javascript based DNS that simplifies the work
+of mounting a DNS server
 using the library [dns2](https://github.com/song940/node-dns) and reduces it to a `npm start`.
 
 ## Installation
@@ -37,12 +37,48 @@ npm start
 
 [Class types](https://tools.ietf.org/html/rfc1035#section-3.2.4)
 
+## DNS API Endpoints
+
+-   GET /v1/entries
+-   POST /v1/entries:
+
+```json
+body: {
+    "name": "google.es",
+    "address": "192.168.1.148",
+    "ttl": 60,
+    "type": 1,
+    "class": 1
+}
+```
+
+-   PATCH /v1/entries:
+
+```json
+body: {
+    id: '675asd567ad56sa',
+    data: {
+        "name": "google.es",
+        "address": "192.168.1.148",
+        "ttl": 60,
+        "type": 1,
+        "class": 1
+    }
+}
+```
+
+-   DELETE /v1/entries:
+```json
+body: {
+       id: '675asd567ad56sa'
+}
+```
+
 ## Test
 
 ```
 npm test
 ```
-
 
 ## Contributing
 
