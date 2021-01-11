@@ -1,6 +1,8 @@
 # Fluent DNS
 
-Fluent DNS is a javascript based DNS that simplifies the work of mounting a DNS server and reduces it to a `npm start`.
+Fluent DNS is a javascript based DNS that simplifies the work 
+of mounting a DNS server 
+using the library [dns2](https://github.com/song940/node-dns) and reduces it to a `npm start`.
 
 ## Installation
 
