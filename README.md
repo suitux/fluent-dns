@@ -26,8 +26,8 @@ npm start
     "name": "google.es",
     "address": "192.168.1.148",
     "ttl": 60,
-    "type": "A",
-    "class": "IN"
+    "type": 1,
+    "class": 1
 }
 ```
 
