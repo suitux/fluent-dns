@@ -43,7 +43,7 @@ npm start
 -   POST /v1/entries:
 
 ```json
-body: {
+{
     "name": "google.es",
     "address": "192.168.1.148",
     "ttl": 60,
@@ -55,9 +55,9 @@ body: {
 -   PATCH /v1/entries:
 
 ```json
-body: {
-    id: '675asd567ad56sa',
-    data: {
+{
+    "id": "675asd567ad56sa",
+    "data": {
         "name": "google.es",
         "address": "192.168.1.148",
         "ttl": 60,
@@ -69,8 +69,8 @@ body: {
 
 -   DELETE /v1/entries:
 ```json
-body: {
-       id: '675asd567ad56sa'
+{
+       "id": "675asd567ad56sa"
 }
 ```
 
