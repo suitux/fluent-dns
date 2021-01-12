@@ -215,3 +215,7 @@ fabric.properties
 # End of https://www.toptal.com/developers/gitignore/api/webstorm
 
 package-lock.json
+
+
+test/api/routes/files/*
+test/model/db/files/*
