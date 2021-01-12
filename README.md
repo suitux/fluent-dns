@@ -30,13 +30,15 @@ npm start
 ## dns-entries.json structure
 
 ```json
-{
-    "name": "google.es",
-    "address": "192.168.1.148",
-    "ttl": 60,
-    "type": 1,
-    "class": 1
-}
+[
+  {
+        "name": "google.es",
+        "address": "192.168.1.148",
+        "ttl": 60,
+        "type": 1,
+        "class": 1
+  }
+]
 ```
 
 [Entry types](https://tools.ietf.org/html/rfc1035#section-3.2.2)
