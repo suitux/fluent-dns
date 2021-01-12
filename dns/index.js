@@ -1,5 +1,5 @@
 const DNS = require('dns2')
-const nodeDns = require('dns');
+const nodeDns = require('dns')
 const util = require('util')
 const resolve = util.promisify(nodeDns.resolve)
 
@@ -14,8 +14,7 @@ const database = new DnsDb({
     dnsEntriesFilePath,
 })
 
-const dnsClient = new DNS({nameServers: ['8.8.8.8']})
-
+const dnsClient = new DNS({ nameServers: ['8.8.8.8'] })
 
 const server = DNS.createServer(async (request, send, rinfo) => {
     const response = Packet.createResponseFromRequest(request)
@@ -46,17 +45,22 @@ const server = DNS.createServer(async (request, send, rinfo) => {
 
         let answers = entry.answers
 
-        if(entry.answers.length === 0) {
-            const res = await resolve(question.name, Object.keys(Packet.TYPE)[question.type - 1]).catch(e => console.log(e));
+        if (entry.answers.length === 0) {
+            const res = await resolve(
+                question.name,
+                Object.keys(Packet.TYPE)[question.type - 1]
+            ).catch((e) => console.log(e))
 
-            if(res && res.length > 0) {
-                answers = [{
-                    name: entry.name,
-                    ttl: 300,
-                    type: question.type,
-                    class: question.class,
-                    address: res[0]
-                }]
+            if (res && res.length > 0) {
+                answers = [
+                    {
+                        name: entry.name,
+                        ttl: 300,
+                        type: question.type,
+                        class: question.class,
+                        address: res[0],
+                    },
+                ]
             }
         }
 
