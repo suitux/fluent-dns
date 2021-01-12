@@ -31,13 +31,14 @@ npm start
 
 ```json
 [
-  {
-        "name": "google.es",
+    {
+        "id": "0416a1f04f6e25976dc75875715d85fd60c048e5",
+        "name": "web.dev",
         "address": "192.168.1.148",
         "ttl": 60,
         "type": 1,
         "class": 1
-  }
+    }
 ]
 ```
 
