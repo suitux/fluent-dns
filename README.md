@@ -4,6 +4,12 @@ Fluent DNS is a javascript based DNS that simplifies the work
 of mounting a DNS server
 using the library [dns2](https://github.com/song940/node-dns) and reduces it to a `npm start`.
 
+The functionality it's basic. 
+It's a DNS that actuates like /etc/hosts file. (c:\Windows\System32\Drivers\etc\hosts. on windows)
+
+First, the DNS will search in his `./shared/db/dns-entries.json` entries. 
+If the entry is not found, it will search it on a real DNS (8.8.8.8) and will resolve it.  
+
 ## Installation
 
 Download this repository.
