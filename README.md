@@ -1,4 +1,7 @@
-![Fluent DNS](https://raw.githubusercontent.com/suitux/fluent-dns/main/fluent-dns-logo.png)
+<p align="center"> 
+    <img src="https://raw.githubusercontent.com/suitux/fluent-dns/main/fluent-dns-logo.png" alt="Fluent DNS UI Logo" width="300">
+</p>
+
 
 Fluent DNS is a javascript based DNS that simplifies the work
 of mounting a DNS server
