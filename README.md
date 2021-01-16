@@ -1,5 +1,5 @@
 <p align="center"> 
-    <img src="https://raw.githubusercontent.com/suitux/fluent-dns/main/fluent-dns-logo.png" alt="Fluent DNS UI Logo" width="300">
+    <img src="https://raw.githubusercontent.com/suitux/fluent-dns/main/fluent-dns-logo.png" alt="Fluent DNS UI Logo" width="400">
 </p>
 
 
