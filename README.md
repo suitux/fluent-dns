@@ -92,6 +92,20 @@ npm start
 npm test
 ```
 
+## Known problems
+
+### Command line doesn't show 'DNS Server started.':
+There is a service running on port *.53 on your local machine. You should stop it to run the DNS Server.
+
+Look for local services running on port *.53: 
+```
+lsof -i udp:53
+```
+When you find it, kill it using the following command: 
+```
+kill [PID]
+```
+
 ## Contributing
 
 Pull requests are welcome :)
